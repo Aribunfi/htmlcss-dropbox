@@ -105,3 +105,8 @@ h2 {
     display: inline-block;
     text-align: center;
 }
+
+.card {
+    width: 350px;
+    height: 500px;
+}
