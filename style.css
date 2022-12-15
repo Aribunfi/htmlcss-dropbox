@@ -11,7 +11,6 @@ a {
     text-decoration: none;
     color: rgb(72, 67, 67);
     position: relative;
-   
 }
 
 li {
@@ -32,8 +31,9 @@ nav>img {
 
 button {
     color: white;
-    background-color: rgb(0, 132, 255);
-    border-color: rgb(0, 132, 255);
+    background-color: #0061ff;
+    border-color: #0061ff;
+    align-content: center;
 }
 
 .jumbotron {
@@ -52,7 +52,6 @@ text-align: left;
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    text-align: center;
     align-items: center;
 }
 
@@ -72,3 +71,37 @@ justify-content: center;
 }
 
 
+h2 {
+    font-weight: bold;
+    font-size: 34;
+    
+}
+
+.fatturazione {
+    display: inline-block;
+   
+}
+
+.pallino {
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    border-color: rgb(72, 67, 67);
+    border-width: 3px;
+    background-color: #0061ff;
+    display: inline-block;
+}
+
+.piani {
+    display: block;
+    
+}
+
+.col {
+    border-color: rgb(72, 67, 67);
+    border-width: 3px;
+    width: 150px;
+    height: 400px;
+    display: inline-block;
+    text-align: center;
+}
