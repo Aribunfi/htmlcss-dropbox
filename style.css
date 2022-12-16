@@ -109,4 +109,5 @@ h2 {
 .card {
     width: 350px;
     height: 500px;
+    display: inline-block;
 }
