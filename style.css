@@ -211,6 +211,7 @@ color:#0061ff;
    
 }
 
+
 .box-logo img {
     object-fit: contain;
     width: 50%;
@@ -220,12 +221,43 @@ color:#0061ff;
 }
 
 
+#designit {
+    background-color: aquamarine;
+}
+
+#arizona {
+    background-color: #61082b;
+}
+
+#florida {
+    background-color: #0093ce;
+}
+
+#topps {
+    background-color: #ff1c1c;
+}
+
+#bicycle {
+    background-color: #d5001f;
+}
+
+#hearst {
+    background-color: #b4d0e7;
+}
+
+#lonely {
+    background-color: #0d2481;
+}
+
+#clear {
+    background-color: #ffd830;
+}
+
 .column {
     width: calc(100% / 3);
     height: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
- 
 }
 
 
