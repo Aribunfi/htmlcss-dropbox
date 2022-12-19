@@ -197,7 +197,7 @@ color:#0061ff;
     display: flex;
     text-align: center;
     justify-content: center;
-    vertical-align: center;
+    vertical-align: middle;
     
 }
 
@@ -205,6 +205,9 @@ color:#0061ff;
     width: 50%;
     height: calc(100vw / 3 / 2);
     background-color: blue;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
    
 }
 
@@ -212,16 +215,17 @@ color:#0061ff;
     object-fit: contain;
     width: 50%;
     vertical-align: middle; 
-    filter: invert();  
+    filter: invert(); 
+    justify-content: center; 
 }
 
 
 .column {
     width: calc(100% / 3);
-    height: 30%;
+    height: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
-    
+ 
 }
 
 
