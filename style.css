@@ -220,6 +220,20 @@ color:#0061ff;
     justify-content: center; 
 }
 
+#display {
+text-align: left;
+line-height: 24px;
+}
+
+#design-2 {
+    width: 50%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#quote {
+    margin-top: 25px;
+}
 
 #designit {
     background-color: aquamarine;
